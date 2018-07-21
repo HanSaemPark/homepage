@@ -1,0 +1,24 @@
+              /* ************
+ @import url(); 양식안에서 웹에있는 css파일을 가져올수 있다.
+                 ************ */
+                 
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+ /* *는 elements에 적용시킴. */
+* {  모든
+	font - family : 'Nanum Gothic';
+}
+h1 {
+	font - family : 'Hanna';
+}
+
+table th {
+	
+	background-color:#eeeeee; 
+	text-align:center;
+
+
+}
+
+/* 기본 세팅이 완료됨. */
